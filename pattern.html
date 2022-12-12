@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var line=" ";
+        for(var i=1;i<=5;i++){
+            for(var j=1;j<= 5-i;j++){
+                line+=" ";
+            }
+            for(var k=0;k< 2 * i - 1;k++){
+                line+="*";
+            }
+            line+="\n";
+            console.log(line); 
+        }
+           
+          for(var i=1;i<=5-1;i++){
+            for(j=0;j<i;j++){
+                line+=" ";
+            }
+            for(let k=(5-i)*2-1;k>0;k--){
+                line+="*";
+            }
+            line+="\n";
+            console.log(line);
+          } 
+    </script>
+</body>
+</html>
